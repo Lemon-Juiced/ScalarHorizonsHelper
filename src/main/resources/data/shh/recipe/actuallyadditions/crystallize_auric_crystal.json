@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 80,
+  "ingredient": {
+    "tag": "c:ingots/gold"
+  },
+  "result": {
+    "id": "shh:auric_crystal"
+  }
+}

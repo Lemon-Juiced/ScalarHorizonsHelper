@@ -29,20 +29,23 @@ public class SHHRecipeDisabler {
                 ReloadableServerResources resources = event.getServerResources();
                 RecipeManager recipeManager = resources.getRecipeManager();
 
-                // Remove ONLY these two Ender IO alloy smelter recipes:
-                // data/enderio/recipe/alloy_smelting/dark_steel_ingot.json
-                // data/enderio/recipe/dark_steel_ingot_with_coal.json
-                ResourceLocation dark1 = ResourceLocation.tryParse("enderio:alloy_smelting/dark_steel_ingot");
-                ResourceLocation dark2 = ResourceLocation.tryParse("enderio:dark_steel_ingot_with_coal");
+                // Remove only the listed recipes (exact ids).
+                String[] targets = new String[] {
+                    "enderio:alloy_smelting/dark_steel_ingot",
+                    "enderio:dark_steel_ingot_with_coal",
+                    "enderio:basic_capacitor"
+                };
 
                 List<RecipeHolder<?>> kept = recipeManager.getRecipes().stream()
                     .filter(holder -> {
                         ResourceLocation id = holder.id();
-                        if (!"enderio".equals(id.getNamespace())) return true; // keep non-EnderIO recipes
-                        boolean isTarget = (dark1 != null && dark1.equals(id)) || (dark2 != null && dark2.equals(id));
-                        if (isTarget) {
-                            System.out.println("[SHH] Removing EnderIO alloy-smelter recipe: " + id);
-                            return false;
+                        String full = id.toString();
+                        if (!full.startsWith("enderio:")) return true; // Keep non-EnderIO recipes
+                        for (String t : targets) {
+                            if (full.equals(t)) {
+                                System.out.println("Removing Recipe: " + full);
+                                return false;
+                            }
                         }
                         return true;
                     })

@@ -11,6 +11,9 @@ public class SHHItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.createItems(ScalarHorizonsHelper.MODID);
 
     // Crafting Items
+    public static final Supplier<Item> AURIC_CRYSTAL = ITEMS.register("auric_crystal", () -> new Item(new Item.Properties()));
+    public static final Supplier<Item> CUPRIC_CRYSTAL = ITEMS.register("cupric_crystal", () -> new Item(new Item.Properties()));
+    public static final Supplier<Item> TINY_AURIC_CRYSTAL = ITEMS.register("tiny_auric_crystal", () -> new Item(new Item.Properties()));
     public static final Supplier<Item> VOID_CRYSTAL_DUST = ITEMS.register("void_crystal_dust", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

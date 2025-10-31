@@ -17,12 +17,15 @@ public class SHHCreativeTab {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SHH_TAB = CREATIVE_MODE_TABS.register("shh_items", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.shh.items"))
-            .icon(() -> new ItemStack(SHHItems.VOID_CRYSTAL_DUST.get()))
+            .icon(() -> new ItemStack(SHHItems.AURIC_CRYSTAL.get()))
             .build());
 
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == SHH_TAB.get()) {
+            event.accept(SHHItems.AURIC_CRYSTAL.get());
+            event.accept(SHHItems.CUPRIC_CRYSTAL.get());
+            event.accept(SHHItems.TINY_AURIC_CRYSTAL.get());
             event.accept(SHHItems.VOID_CRYSTAL_DUST.get());
         }
     }

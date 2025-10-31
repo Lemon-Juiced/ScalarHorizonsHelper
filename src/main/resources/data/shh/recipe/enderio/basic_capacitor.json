@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " NG",
+    "NIN",
+    "GN "
+  ],
+  "key": {
+    "G": {
+      "tag": "c:dusts/grains_of_infinity"
+    },
+    "I": {
+      "item": "shh:cupric_crystal"
+    },
+    "N": {
+      "item": "shh:tiny_auric_crystal"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "enderio:basic_capacitor"
+  }
+}
