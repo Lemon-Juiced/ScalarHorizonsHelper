@@ -7,6 +7,8 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import site.scalarstudios.shh.creativetab.SHHCreativeTab;
+import site.scalarstudios.shh.item.SHHItems;
 
 @Mod(ScalarHorizonsHelper.MODID)
 public class ScalarHorizonsHelper {
@@ -14,11 +16,19 @@ public class ScalarHorizonsHelper {
 
     public ScalarHorizonsHelper(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
+
+        // Register Items
+        SHHItems.register(modEventBus);
+
+        // Register Creative Tab
+        SHHCreativeTab.register(modEventBus);
+        modEventBus.addListener(SHHCreativeTab::registerTabs);
+
         NeoForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(FMLCommonSetupEvent event) {    }
+    private void commonSetup(FMLCommonSetupEvent event) {}
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) { }
+    public void onServerStarting(ServerStartingEvent event) {}
 }

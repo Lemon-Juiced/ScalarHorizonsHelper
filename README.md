@@ -10,3 +10,4 @@ This mod overrides the Silver Ore generation from Roots 4 to disable it.
 
 ## To Do
 Items for modpack progression.
+Void Crystal Dust recipes

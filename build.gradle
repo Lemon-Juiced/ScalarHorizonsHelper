@@ -76,11 +76,13 @@ configurations {
 
 dependencies {
     // Dependencies
+    implementation "curse.maven:actually_additions-228404:7161269" // Actually Additions
     implementation "curse.maven:curios-309927:6529130" // Curios
+    implementation "curse.maven:enderio-64578:7134432" // Ender IO
     implementation "curse.maven:roots-246183:7162695" // Roots 4
-    implementation "curse.maven:the_mc_bros_lib-387586:5844824" // TheMCBrosLib
-    implementation "curse.maven:useful_foundation-355245:5674845" // Useful Foundations
-    implementation "curse.maven:useful_machinery-355129:5678205" // Useful Machinery
+    implementation "curse.maven:themcbroslib-387586:5844824" // TheMCBrosLib
+    implementation "curse.maven:usefulfoundation-355245:5674845" // Useful Foundations
+    implementation "curse.maven:usefulmachinery-355129:5678205" // Useful Machinery
 
     // QoL For Testing
     implementation "curse.maven:jade-324717:6853386" // Jade
