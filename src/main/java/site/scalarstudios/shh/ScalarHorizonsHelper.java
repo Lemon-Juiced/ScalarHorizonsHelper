@@ -9,6 +9,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import site.scalarstudios.shh.creativetab.SHHCreativeTab;
 import site.scalarstudios.shh.item.SHHItems;
+import site.scalarstudios.shh.recipe.SHHRecipeDisabler;
 
 @Mod(ScalarHorizonsHelper.MODID)
 public class ScalarHorizonsHelper {
@@ -23,6 +24,9 @@ public class ScalarHorizonsHelper {
         // Register Creative Tab
         SHHCreativeTab.register(modEventBus);
         modEventBus.addListener(SHHCreativeTab::registerTabs);
+
+        // Register recipe disabler to listen for reload events
+        NeoForge.EVENT_BUS.register(new SHHRecipeDisabler());
 
         NeoForge.EVENT_BUS.register(this);
     }

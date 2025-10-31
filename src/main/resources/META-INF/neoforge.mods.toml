@@ -28,3 +28,9 @@ description='''Helper Mod for the Scalar Horizons Modpack'''
     versionRange="[4.0.0.19-alpha,)"
     ordering="AFTER"
     side="BOTH"
+[[dependencies.shh]]
+    modId="enderio"
+    type="required"
+    versionRange="[8.0.5-alpha,)"
+    ordering="AFTER"
+    side="BOTH"
