@@ -1,25 +1,12 @@
+# Scalar Horizons Helper
+Helper Mod for the Scalar Horizons Modpack
 
-Installation information
-=======
+## Ore Generation
+Ore Generation for the Scalar Horizons Modpack is primarily handled by 
+Useful Foundations](https://www.curseforge.com/minecraft/mc-mods/useful-foundation) and 
+[Useful Machinery](https://www.curseforge.com/minecraft/mc-mods/useful-machinery).  
+[Roots 4](https://www.curseforge.com/minecraft/mc-mods/roots) includes Silver Ore, but no way to disable it by default.  
+This mod overrides the Silver Ore generation from Roots 4 to have it drop the Raw Silver item from Useful Foundations.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## To Do
+Handle Roots Silver related recipes, silk-touched ore should smelt to Useful Foundations Silver Ingot.
