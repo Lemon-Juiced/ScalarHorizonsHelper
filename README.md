@@ -10,3 +10,4 @@ This mod overrides the Silver Ore generation from Roots 4 to have it drop the Ra
 
 ## To Do
 Handle Roots Silver related recipes, silk-touched ore should smelt to Useful Foundations Silver Ingot.
+Items for modpack progression.
