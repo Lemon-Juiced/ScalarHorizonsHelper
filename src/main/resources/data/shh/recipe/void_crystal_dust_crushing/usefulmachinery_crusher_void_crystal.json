@@ -1,0 +1,11 @@
+{
+  "type": "usefulmachinery:crushing",
+  "crushTime": 200,
+  "ingredient": {
+    "item": "actuallyadditions:void_crystal"
+  },
+  "primary": {
+    "count": 1,
+    "id": "shh:void_crystal_dust"
+  }
+}

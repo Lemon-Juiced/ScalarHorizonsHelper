@@ -1,6 +1,9 @@
 # Scalar Horizons Helper
 Helper Mod for the Scalar Horizons Modpack
 
+## Custom Items
+- Void Crystal Dust
+
 ## Ore Generation
 Ore Generation for the Scalar Horizons Modpack is primarily handled by 
 Useful Foundations](https://www.curseforge.com/minecraft/mc-mods/useful-foundation) and 

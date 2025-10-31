@@ -1,0 +1,21 @@
+{
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "item": "actuallyadditions:void_crystal"
+  },
+  "result": [
+    {
+      "result": {
+        "count": 1,
+        "id": "shh:void_crystal_dust"
+      }
+    },
+    {
+      "chance": 0.1,
+      "result": {
+        "count": 1,
+        "id": "enderio:powdered_coal"
+      }
+    }
+  ]
+}
