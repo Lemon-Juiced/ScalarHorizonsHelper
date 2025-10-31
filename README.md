@@ -9,5 +9,7 @@ Useful Foundations](https://www.curseforge.com/minecraft/mc-mods/useful-foundati
 This mod overrides the Silver Ore generation from Roots 4 to disable it.
 
 ## To Do
-Items for modpack progression.
-Void Crystal Dust recipes
+- Additional Custom Items and Integration  
+- Void Crystal Dust Recipes/Integration  
+- Auric Crystal and Tiny Auric Crystal   
+- Cupric Crystal  
