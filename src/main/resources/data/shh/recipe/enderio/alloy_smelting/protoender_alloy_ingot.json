@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 6400,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "tag": "c:ingots/pulsating_alloy"
+    },
+    {
+      "count": 1,
+      "item": "projectred_core:electrotine_ingot"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "shh:protoender_alloy_ingot"
+  }
+}

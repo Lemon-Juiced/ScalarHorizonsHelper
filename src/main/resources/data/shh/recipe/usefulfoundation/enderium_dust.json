@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/lead"
+    },
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "item": "shh:protoender_alloy_ingot"
+    }
+  ],
+  "result": {
+    "id": "usefulfoundation:enderium_dust",
+    "count": 1
+  }
+}

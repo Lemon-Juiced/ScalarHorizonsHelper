@@ -4,6 +4,7 @@ Helper Mod for the Scalar Horizons Modpack
 ## Custom Items
 - Auric Crystal
 - Cupric Crystal
+- Protoender Alloy Ingot
 - Sawdust
 - Tiny Auric Crystal
 - Void Crystal Dust
