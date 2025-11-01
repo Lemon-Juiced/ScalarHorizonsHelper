@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CGC",
+    "GBG",
+    "CGC"
+  ],
+  "key": {
+    "B": {
+      "item": "actuallyadditions:basic_coil"
+    },
+    "G": {
+      "tag": "c:nuggets/gold"
+    },
+    "C": {
+      "tag": "c:nuggets/conductive_alloy"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallyadditions:advanced_coil"
+  }
+}

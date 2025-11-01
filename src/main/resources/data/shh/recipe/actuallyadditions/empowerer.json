@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "LBL",
+    "CDC"
+  ],
+  "key": {
+    "B": {
+      "item": "actuallyadditions:double_battery"
+    },
+    "L": {
+      "item": "enderio:double_layer_capacitor"
+    },
+    "C": {
+      "item": "actuallyadditions:iron_casing"
+    },
+    "D": {
+      "item": "actuallyadditions:display_stand"
+    },
+    "E": {
+      "item": "enderio:end_steel_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallyadditions:empowerer"
+  }
+}

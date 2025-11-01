@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "ISI",
+    "CIC"
+  ],
+  "key": {
+    "C": {
+      "item": "enderio:soul_chain"
+    },
+    "I": {
+      "tag": "c:ingots/soularium"
+    },
+    "S": {
+      "tag": "c:ingots/signalum"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "enderio:ensouled_chassis"
+  }
+}

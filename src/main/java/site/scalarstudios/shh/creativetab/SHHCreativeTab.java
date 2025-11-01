@@ -4,7 +4,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -25,10 +24,11 @@ public class SHHCreativeTab {
         if (event.getTab() == SHH_TAB.get()) {
             event.accept(SHHItems.AURIC_CRYSTAL.get());
             event.accept(SHHItems.CUPRIC_CRYSTAL.get());
+            event.accept(SHHItems.EMPOWERED_LIGHT_BLUE_CRYSTAL_SHARD.get());
             event.accept(SHHItems.PROTOENDER_ALLOY_INGOT.get());
             event.accept(SHHItems.SAWDUST.get());
-            event.accept(SHHItems.TINY_AURIC_CRYSTAL.get());
             event.accept(SHHItems.VOID_CRYSTAL_DUST.get());
+            event.accept(SHHItems.YELLOW_CRYSTAL_SHARD.get());
         }
     }
 

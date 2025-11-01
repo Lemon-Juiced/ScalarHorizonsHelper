@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "shh:tiny_auric_crystal"
+      "item": "shh:empowered_light_blue_crystal_shard"
     }
   },
   "result": {
     "count": 1,
-    "id": "shh:auric_crystal"
+    "id": "actuallyadditions:empowered_diamatine_crystal"
   }
 }

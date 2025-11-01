@@ -4,10 +4,11 @@ Helper Mod for the Scalar Horizons Modpack
 ## Custom Items
 - Auric Crystal
 - Cupric Crystal
+- Empowered Light Blue Crystal Shard
 - Protoender Alloy Ingot
 - Sawdust
-- Tiny Auric Crystal
 - Void Crystal Dust
+- Yellow Crystal Shard
 
 ## Ore Generation
 Ore Generation for the Scalar Horizons Modpack is primarily handled by 
@@ -17,9 +18,16 @@ Ore Generation for the Scalar Horizons Modpack is primarily handled by
 This mod overrides the Silver Ore generation from Roots 4 to disable it.
 
 ## Recipe Adjustments
-- Actually Additions: Wood and Iron Case Recipes adjusted to use Sawdust. Forces progression through Useful Machinery first.
-- Ender IO: Basic Capacitor Recipe adjusted to use Cupric and Tiny Auric Crystals. Forces progression through Actually Additions first.
-- Ender IO: Dark Steel Ingot Recipe adjusted to use Void Crystal Dust. Forces progression through Actually Additions first.
+- Actually Additions: Advanced Coil Recipe adjusted to use Conductive Alloy Ingots. Forces progression through Ender IO (Alloy Smelter) first.
+- Actually Additions: Empowerer Recipe adjusted to use Double Layer Capacitor and End Steel Ingot. Forces progression through Ender IO (Alloy Smelter) first.
+- Actually Additions: Iron Cassing and Wood Casing Recipes adjusted to use Sawdust. Forces progression through Useful Machinery (Crusher) first.
+- Ender IO: Basic Capacitor Recipe adjusted to use Cupric Crystal and Yellow Crystal Shard. Forces progression through Actually Additions (Atomic Reconstructor) first.
+- Ender IO: Dark Steel Ingot Recipe adjusted to use Void Crystal Dust. Forces progression through Actually Additions (Atomic Reconstructor) first.
+- Ender IO: End Steel Ingot Recipe adjusted to use Enderium Ingot. Forces progression more Ender IO (Alloy Smelter) and Project Red (Crafting) first.
+- Ender IO: Energetic Alloy Ingot Recipe adjusted to use Auric Crystal. Forces progression through Actually Additions (Atomic Reconstructor) first.
+- Ender IO: Ensouled Chassis Recipe adjusted to use Singnalum Ingot. Forces progression through Actually Additions (Crusher) /Useful Machinery (Crusher) first.
+- Ender IO: Vibrant Alloy Ingot Recipe adjusted to use Empowered Light Blue Crystal Shard. Forces progression through Actually Additions (Empowerer) first.
+- Ender IO: Void Chassis Recipe adjusted to use Electrum Ingot. Forces progression through Actually Additions (Crusher) /Useful Machinery (Crusher) first.
 
 ## To Do
 - Additional Custom Items and Integration

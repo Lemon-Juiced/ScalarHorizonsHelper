@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "actuallyadditions:empowered_diamatine_crystal"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "shh:empowered_light_blue_crystal_shard"
+  }
+}

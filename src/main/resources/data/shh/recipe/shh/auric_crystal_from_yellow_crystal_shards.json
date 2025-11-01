@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "shh:yellow_crystal_shard"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "shh:auric_crystal"
+  }
+}

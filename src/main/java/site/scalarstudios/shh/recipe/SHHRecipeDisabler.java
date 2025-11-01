@@ -31,11 +31,18 @@ public class SHHRecipeDisabler {
 
                 // Remove only the listed recipes (exact ids).
                 String[] targets = new String[] {
-                    "actuallyadditions:wood_casing",
+                    "actuallyadditions:advanced_coil",
+                    "actuallyadditions:empowerer",
                     "actuallyadditions:iron_casing",
+                    "actuallyadditions:wood_casing",
                     "enderio:alloy_smelting/dark_steel_ingot",
+                    "enderio:alloy_smelting/end_steel_ingot",
+                    "enderio:alloy_smelting/energetic_alloy_ingot",
+                    "enderio:alloy_smelting/vibrant_alloy_ingot",
+                    "enderio:basic_capacitor",
                     "enderio:dark_steel_ingot_with_coal",
-                    "enderio:basic_capacitor"
+                    "enderio:ensouled_chassis",
+                    "enderio:void_chassis"
                 };
 
                 List<RecipeHolder<?>> kept = recipeManager.getRecipes().stream()
