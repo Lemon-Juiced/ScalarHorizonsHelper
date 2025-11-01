@@ -21,6 +21,7 @@ This mod overrides the Silver Ore generation from Roots 4 to disable it.
 - Actually Additions: Advanced Coil Recipe adjusted to use Conductive Alloy Ingots. Forces progression through Ender IO (Alloy Smelter) first.
 - Actually Additions: Empowerer Recipe adjusted to use Double Layer Capacitor and End Steel Ingot. Forces progression through Ender IO (Alloy Smelter) first.
 - Actually Additions: Iron Casing and Wood Casing Recipes adjusted to use Sawdust. Forces progression through Useful Machinery (Crusher) first.
+- Additional Enchanted Miner (QuarryPlus): Quarry Recipes adjusted to use Void Chassis. Forces progression through Ender IO first.
 - Ender IO: Basic Capacitor Recipe adjusted to use Cupric Crystal and Yellow Crystal Shard. Forces progression through Actually Additions (Atomic Reconstructor) first.
 - Ender IO: Dark Steel Ingot Recipe adjusted to use Void Crystal Dust. Forces progression through Actually Additions (Atomic Reconstructor) first.
 - Ender IO: End Steel Ingot Recipe adjusted to use Enderium Ingot. Forces progression more Ender IO (Alloy Smelter) and Project Red (Crafting) first.

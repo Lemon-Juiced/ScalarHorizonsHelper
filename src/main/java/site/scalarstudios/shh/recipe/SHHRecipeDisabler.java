@@ -44,6 +44,7 @@ public class SHHRecipeDisabler {
                     "enderio:ensouled_chassis",
                     "enderio:void_chassis",
                     "minefactorial:shaped/misc/machine_frame",
+                    "quarryplus:quarry",
                     "refinedstorage:machine_casing",
                     "rftoolsbase:machine_base",
                     "rftoolsbase:machine_frame",
@@ -58,6 +59,7 @@ public class SHHRecipeDisabler {
                         if (!full.startsWith("actuallyadditions:")
                                 && !full.startsWith("enderio:")
                                 && !full.startsWith("minefactorial:")
+                                && !full.startsWith("quarryplus:")
                                 && !full.startsWith("refinedstorage:")
                                 && !full.startsWith("rftoolsbase:")
                                 && !full.startsWith("rftoolsstorage:")

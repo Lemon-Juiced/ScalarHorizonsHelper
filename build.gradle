@@ -77,6 +77,7 @@ configurations {
 dependencies {
     // Dependencies
     implementation "curse.maven:actually_additions-228404:7161269" // Actually Additions
+    implementation "curse.maven:additional_enchanted_miner-282837:6947193" // Additional Enchanted Miner
     implementation "curse.maven:cb_multipart-258426:6583756" // CB Multipart
     implementation "curse.maven:codechickenlib-242818:6583751" // CodeChickenLib 1.8+
     implementation "curse.maven:curios-309927:6529130" // Curios
@@ -98,6 +99,7 @@ dependencies {
     implementation "curse.maven:rftools_storage-350006:7041247" // RFTools Storage
     implementation "curse.maven:rftools_utility-342466:7017960" // RFTools Utility
     implementation "curse.maven:roots-246183:7162695" // Roots 4
+    implementation "curse.maven:scalable_cats_force-320926:6737240" // Scalable Cat's Force
     implementation "curse.maven:supermartijn642s_core_lib-454372:6076757" // SuperMartijn642's Core Lib
     implementation "curse.maven:supermartijn642s_config_lib-438332:5546996" // SuperMartijn642's Config Lib
     implementation "curse.maven:tesseract-379232:6865558" // Tesseract

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ioi",
+    "gCg",
+    "iRm"
+  ],
+  "key": {
+    "C": {
+      "item": "enderio:void_chassis"
+    },
+    "R": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "g": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    },
+    "m": {
+      "tag": "quarryplus:markers"
+    },
+    "o": {
+      "tag": "c:obsidians"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "quarryplus:quarry"
+  }
+}
