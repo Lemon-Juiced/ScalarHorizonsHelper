@@ -25,6 +25,7 @@ public class SHHCreativeTab {
         if (event.getTab() == SHH_TAB.get()) {
             event.accept(SHHItems.AURIC_CRYSTAL.get());
             event.accept(SHHItems.CUPRIC_CRYSTAL.get());
+            event.accept(SHHItems.SAWDUST.get());
             event.accept(SHHItems.TINY_AURIC_CRYSTAL.get());
             event.accept(SHHItems.VOID_CRYSTAL_DUST.get());
         }

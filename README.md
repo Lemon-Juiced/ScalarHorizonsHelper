@@ -4,6 +4,7 @@ Helper Mod for the Scalar Horizons Modpack
 ## Custom Items
 - Auric Crystal
 - Cupric Crystal
+- Sawdust
 - Tiny Auric Crystal
 - Void Crystal Dust
 
@@ -15,6 +16,7 @@ Ore Generation for the Scalar Horizons Modpack is primarily handled by
 This mod overrides the Silver Ore generation from Roots 4 to disable it.
 
 ## Recipe Adjustments
+- Actually Additions: Wood and Iron Case Recipes adjusted to use Sawdust. Forces progression through Useful Machinery first.
 - Ender IO: Basic Capacitor Recipe adjusted to use Cupric and Tiny Auric Crystals. Forces progression through Actually Additions first.
 - Ender IO: Dark Steel Ingot Recipe adjusted to use Void Crystal Dust. Forces progression through Actually Additions first.
 

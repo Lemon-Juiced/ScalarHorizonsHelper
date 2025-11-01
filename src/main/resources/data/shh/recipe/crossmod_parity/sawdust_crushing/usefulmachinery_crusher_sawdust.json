@@ -1,0 +1,11 @@
+{
+  "type": "usefulmachinery:crushing",
+  "crushTime": 200,
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "primary": {
+    "count": 1,
+    "id": "shh:sawdust"
+  }
+}

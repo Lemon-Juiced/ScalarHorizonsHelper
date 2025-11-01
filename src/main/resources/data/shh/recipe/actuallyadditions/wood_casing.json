@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SRS",
+    "WSW"
+  ],
+  "key": {
+    "R": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "shh:sawdust"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "actuallyadditions:wood_casing"
+  }
+}

@@ -31,6 +31,8 @@ public class SHHRecipeDisabler {
 
                 // Remove only the listed recipes (exact ids).
                 String[] targets = new String[] {
+                    "actuallyadditions:wood_casing",
+                    "actuallyadditions:iron_casing",
                     "enderio:alloy_smelting/dark_steel_ingot",
                     "enderio:dark_steel_ingot_with_coal",
                     "enderio:basic_capacitor"
@@ -40,7 +42,7 @@ public class SHHRecipeDisabler {
                     .filter(holder -> {
                         ResourceLocation id = holder.id();
                         String full = id.toString();
-                        if (!full.startsWith("enderio:")) return true; // Keep non-EnderIO recipes
+                        if (!full.startsWith("enderio:") && !full.startsWith("actuallyadditions:")) return true; // Keep recipes from other mods
                         for (String t : targets) {
                             if (full.equals(t)) {
                                 System.out.println("Removing Recipe: " + full);
