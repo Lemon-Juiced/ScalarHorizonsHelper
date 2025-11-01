@@ -42,14 +42,28 @@ public class SHHRecipeDisabler {
                     "enderio:basic_capacitor",
                     "enderio:dark_steel_ingot_with_coal",
                     "enderio:ensouled_chassis",
-                    "enderio:void_chassis"
+                    "enderio:void_chassis",
+                    "minefactorial:shaped/misc/machine_frame",
+                    "refinedstorage:machine_casing",
+                    "rftoolsbase:machine_base",
+                    "rftoolsbase:machine_frame",
+                    "rftoolsstorage:storage_module0",
+                    "tesseract:tesseract",
                 };
 
                 List<RecipeHolder<?>> kept = recipeManager.getRecipes().stream()
                     .filter(holder -> {
                         ResourceLocation id = holder.id();
                         String full = id.toString();
-                        if (!full.startsWith("enderio:") && !full.startsWith("actuallyadditions:")) return true; // Keep recipes from other mods
+                        if (!full.startsWith("actuallyadditions:")
+                                && !full.startsWith("enderio:")
+                                && !full.startsWith("minefactorial:")
+                                && !full.startsWith("refinedstorage:")
+                                && !full.startsWith("rftoolsbase:")
+                                && !full.startsWith("rftoolsstorage:")
+                                && !full.startsWith("tesseract:")
+                        )
+                            return true; // Keep recipes from other mods
                         for (String t : targets) {
                             if (full.equals(t)) {
                                 System.out.println("Removing Recipe: " + full);

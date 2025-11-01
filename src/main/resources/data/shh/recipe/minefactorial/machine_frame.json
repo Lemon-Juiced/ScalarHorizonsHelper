@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "SCS"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/plastic"
+    },
+    "S": {
+      "tag": "c:stones"
+    },
+    "C": {
+      "item": "enderio:void_chassis"
+    }
+  },
+  "result": {
+    "count": 3,
+    "id": "minefactorial:machine_frame"
+  }
+}

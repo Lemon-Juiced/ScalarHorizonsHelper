@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "geg",
+    "qrq"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "e": {
+      "item": "actuallyadditions:enori_crystal"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "rftoolsstorage:storage_module0"
+  }
+}

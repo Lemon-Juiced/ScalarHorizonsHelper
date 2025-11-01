@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:obsidians"
+    },
+    "B": {
+      "tag": "c:ingots/enderium"
+    },
+    "C": {
+      "tag": "c:storage_blocks/diamond"
+    }
+  },
+  "result": {
+    "id": "tesseract:tesseract"
+  }
+}

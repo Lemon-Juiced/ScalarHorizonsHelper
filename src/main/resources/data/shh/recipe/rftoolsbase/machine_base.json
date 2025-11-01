@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "sss"
+  ],
+  "key": {
+    "y": {
+      "item": "shh:yellow_crystal_shard"
+    },
+    "s": {
+      "tag": "c:stones"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_base"
+  }
+}

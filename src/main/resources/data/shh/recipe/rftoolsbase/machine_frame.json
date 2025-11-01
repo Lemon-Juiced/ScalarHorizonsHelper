@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iei",
+    "y y",
+    "iei"
+  ],
+  "key": {
+    "y": {
+      "item": "shh:yellow_crystal_shard"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    },
+    "e": {
+      "item": "projectred_core:electrotine_dust"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_frame"
+  }
+}

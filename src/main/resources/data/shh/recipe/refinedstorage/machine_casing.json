@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "ECE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    "C": {
+      "item": "enderio:void_chassis"
+    }
+  },
+  "result": {
+    "id": "refinedstorage:machine_casing"
+  }
+}

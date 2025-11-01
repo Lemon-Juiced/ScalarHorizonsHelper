@@ -80,7 +80,10 @@ dependencies {
     implementation "curse.maven:cb_multipart-258426:6583756" // CB Multipart
     implementation "curse.maven:codechickenlib-242818:6583751" // CodeChickenLib 1.8+
     implementation "curse.maven:curios-309927:6529130" // Curios
+    implementation "curse.maven:deep_resonance-233398:7143182" // Deep Resonance
     implementation "curse.maven:enderio-64578:7134432" // Ender IO
+    implementation "curse.maven:mcjtylib-233105:7143181" // McJtyLib
+    implementation "curse.maven:minefactorial-1144883:6028292" // MineFactorial
     implementation "curse.maven:project_red_core-228702:6885875" // Project Red - Core
     implementation "curse.maven:project_red_expansion-229048:6885876" // Project Red - Expansion
     implementation "curse.maven:project_red_exploration-229049:6885877" // Project Red - Exploration
@@ -88,10 +91,20 @@ dependencies {
     implementation "curse.maven:project_red_illumination-229046:6885879" // Project Red - Illumination
     implementation "curse.maven:project_red_integration-229045:6885881" // Project Red - Integration
     implementation "curse.maven:project_red_transmission-478939:6885882" // Project Red - Transmission
+    implementation "curse.maven:refined_storage-243076:7039043" // Refined Storage
+    implementation "curse.maven:rftools_base-326041:6762657" // RFTools Base
+    implementation "curse.maven:rftools_builder-347706:6563952" // RFTools Builder
+    implementation "curse.maven:rftools_power-290209:6310518" // RFTools Power
+    implementation "curse.maven:rftools_storage-350006:7041247" // RFTools Storage
+    implementation "curse.maven:rftools_utility-342466:7017960" // RFTools Utility
     implementation "curse.maven:roots-246183:7162695" // Roots 4
+    implementation "curse.maven:supermartijn642s_core_lib-454372:6076757" // SuperMartijn642's Core Lib
+    implementation "curse.maven:supermartijn642s_config_lib-438332:5546996" // SuperMartijn642's Config Lib
+    implementation "curse.maven:tesseract-379232:6865558" // Tesseract
     implementation "curse.maven:themcbroslib-387586:5844824" // TheMCBrosLib
     implementation "curse.maven:usefulfoundation-355245:5674845" // Useful Foundations
     implementation "curse.maven:usefulmachinery-355129:5678205" // Useful Machinery
+    implementation "curse.maven:xnet-260912:6563957" // XNet
 
     // QoL For Testing
     implementation "curse.maven:jade-324717:6853386" // Jade
